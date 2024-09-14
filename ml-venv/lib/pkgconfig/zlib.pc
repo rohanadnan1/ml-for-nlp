@@ -1,0 +1,13 @@
+prefix=/Users/macbook/Desktop/ml-for-nlp/ml-venv
+exec_prefix=/Users/macbook/Desktop/ml-for-nlp/ml-venv
+libdir=/Users/macbook/Desktop/ml-for-nlp/ml-venv/lib
+sharedlibdir=/Users/macbook/Desktop/ml-for-nlp/ml-venv/lib
+includedir=/Users/macbook/Desktop/ml-for-nlp/ml-venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
