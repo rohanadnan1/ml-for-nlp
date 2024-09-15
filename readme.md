@@ -9,4 +9,7 @@ Lemmatization provide us better results we import it from nltk.stem (lemmatizer)
 it basically is for more better results like if the word in noun or adverb if we provide pos tag as well the results will be more accurate/n
 ### 4) Stop words:
  we can apply stop words as well these are just a list of words which does not play an important role so we just remove them we can also create our own list of stop words we import stop words from nltk.corpus /n
- 
+ these were the techniques used for text pre-processing 
+
+ ### Words to vector
+ now come the new part where we tranform the pre processed text into vectors 
